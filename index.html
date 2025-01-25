@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=B, initial-scale=1.0">
+    <title>Bemax</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid bg-light">
+        <div class="row">
+            <div class="top"></div>
+            <a href="#" class="topbar"><i class="fa-solid fa-chevron-up"></i>></a>
+        </div>
+        <div class="row">          
+            <div class="header d-flex justify-content-between">
+                <div class="header-1">
+                    <input type="checkbox" id="check">
+                    <label class="logo"><img src="img/logo/main-logo.png" alt="logo"></label> 
+                </div>
+                <div class="header-2">      
+                    <div class="nav">    
+                        <ul>
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">features</a></li>
+                            <li><a href="#">pages</a></li>
+                            <li><a href="#">portfolio</a></li>
+                            <li><a href="#">blogs</a></li>
+                            <li><a href="#">contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-right">   
+                        <div class="bar"></div>
+                        <img id="search" src="img/header/search.svg" alt="">
+                        <label for="check"><img class="checkbtn" src="img/header/list(2).svg" alt="menu"></label>
+                    </div>
+                </div> 
+            </div>
+        </div><!------------header part end-------->
+        <div class="popup">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="row"><!------------slider start----------->
+            <div class="carousel slide carousel" id="carouselID" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button class="active" data-bs-target="#carouselID" data-bs-slide-to="0"></button>
+                    <button data-bs-target="#carouselID" data-bs-slide-to="1"></button>
+                    <button data-bs-target="#carouselID" data-bs-slide-to="2"></button>
+                </div>
+                    
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner/slide_01.jpg" alt="slider">
+                    </div>
+                    <div class="carousel-caption">
+                        <p class="display-1 fw-bold">My Dreams</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde perferendis numquam expedita consequatur laboriosam ea quod neque aut consectetur.</p>
+                        <p>Please, Help me</p>
+                        <button class="btn btn-light">Learn More</button>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner/slide_02.jpg" alt="slider">
+                    </div>
+                    <div class="carousel-caption">
+                        <p class="display-1 fw-bold">My Dreams</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde perferendis numquam expedita consequatur laboriosam ea quod neque aut consectetur.</p>
+                        <p>Please, Help me</p>
+                        <button class="btn btn-light">Learn More</button>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="img/banner/slide_03.jpg" alt="slider">
+                    </div>
+                    <div class="carousel-caption">
+                        <p class="display-1 fw-bold">My Dreams</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde perferendis numquam expedita consequatur laboriosam ea quod neque aut consectetur.</p>
+                        <p>Please, Help me</p>
+                        <button class="btn btn-light">Learn More</button>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#carouselID" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" data-bs-target="#carouselID" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+            </div>
+        </div><!--------------------slider end-------------->
+        <div class="sec-1 d-flex justify-content-around align-items-center">
+            <p class="text-center">We've completed more than 100+ project for our amazing clients, If you interested?</p>
+            <button class="btn btn-warning btn-outline-light ">Hite us</button>
+        </div><!-------------sec-1  end------------>
+        <div class="sec-2">
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <img src="img/features/1.jpg" alt="image" class="d-block w-100 img-thumbnails">
+                    <div class="pic-cap w-100 bg-primary">
+                        <p class="text-light text-center">Top Investment Advisors</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/features/2.jpg" alt="image" class="d-block w-100 img-thumbnails">
+                    <div class="pic-cap w-100 bg-primary">
+                        <p class="text-light text-center">Top Investment Advisors</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="img/features/3.jpg" alt="image" class="d-block w-100 img-thumbnails">
+                    <div class="pic-cap w-100 bg-primary">
+                        <p class="text-light text-center">Top Investment Advisors</p>
+                    </div>
+                </div>
+            </div>
+        </div><!------------sec-2 end------------>
+        <div class="sec-3">
+           <div class="row mt-5">
+            <h4 class="fw-bold text-center">WE ARE BEMAX</h4>
+            <hr class="u-line">
+           </div> 
+           <div class="row mt-5">
+               <div class="col-md-4">
+                  <img src="img/computer.jpg" alt="computer image" class="w-25 wrap me-3"> 
+                  <div class="right-text">
+                    <h6 class="fw-bold">Responsive Design</h6>
+                    <p>Vestibulum non diam quis nisl dignissim posu-
+                    ere avulputate urna nunc valit
+                    </p>
+                </div>
+               </div>
+               <div class="col-md-4">
+                <img src="img/computer.jpg" alt="computer image" class="w-25 wrap me-3"> 
+                <div class="right-text">
+                    <h6 class="fw-bold">Responsive Design</h6>
+                    <p>Vestibulum non diam quis nisl dignissim posu-
+                    ere avulputate urna nunc valit
+                    </p>
+                </div>
+             </div>
+             <div class="col-md-4">
+                <img src="img/computer.jpg" alt="computer image" class="w-25 wrap me-3">
+                <div class="right-text">
+                    <h6 class="fw-bold">Responsive Design</h6>
+                    <p>Vestibulum non diam quis nisl dignissim posu-
+                    ere avulputate urna nunc valit
+                    </p>
+                </div> 
+             </div>
+             <div class="row mt-5">
+                <div class="col-md-4">
+                   <img src="img/computer.jpg" alt="computer image" class="w-25 wrap me-3"> 
+                   <div class="right-text">
+                     <h6 class="fw-bold">Responsive Design</h6>
+                     <p>Vestibulum non diam quis nisl dignissim posu-
+                     ere avulputate urna nunc valit
+                     </p>
+                 </div>
+                </div>
+                <div class="col-md-4">
+                 <img src="img/computer.jpg" alt="computer image" class="w-25 wrap me-3"> 
+                 <div class="right-text">
+                     <h6 class="fw-bold">Responsive Design</h6>
+                     <p>Vestibulum non diam quis nisl dignissim posu-
+                     ere avulputate urna nunc valit
+                     </p>
+                 </div>
+              </div>
+              <div class="col-md-4">
+                 <img src="img/computer.jpg" alt="computer image" class="w-25 wrap me-3">
+                 <div class="right-text">
+                     <h6 class="fw-bold">Responsive Design</h6>
+                     <p>Vestibulum non diam quis nisl dignissim posu-
+                     ere avulputate urna nunc valit
+                     </p>
+                 </div> 
+              </div>
+            </div>
+           </div>
+        </div><!---------------sec-3 end-------------->
+        <div class="sec-4 bg-dark mt-5">
+            <h4 class="text-center fw-bold pt-5 text-light">LATEST PROJECTS</h4><hr class="text-light u-line">
+            <div class="line-pic d-flex mt-2">
+                <p>latest</p>
+                <img src="img/project/project_01.jpg" alt="image" class="w-25 img-thumbnails d-block">
+                <img src="img/project/project_02.jpg" alt="image" class="w-25 img-thumbnails d-block">
+                <img src="img/project/project_03.jpg" alt="image" class="w-25 img-thumbnails d-block">
+                <img src="img/project/project_04.jpg" alt="image" class="w-25 img-thumbnails d-block">
+                <p>project</p>
+            </div>
+            <p>latest project</p>
+            <p>project</p>
+        </div><!------------------sec-4 end----------------->
+        <div class="sec-5">
+            <div class="row">
+                <h6 class="text-center fw-bold">WHY CHOOSE US</h6><hr class="u-line">
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <img src="img/video/video_01.jpg" alt="video" class="w-100 img-thumbnails ps-3">
+                </div>
+                <div class="col-md-6">
+                    <div class="body-4-right">
+                        <img src="img/project/certificate.svg" alt="bulet" class="svg"><h3>Awesome Design</h3>
+                        <p>Fugit perspiciatis vel laborum animi quae,
+                         placeat repellat sed fugiat incidunt recusandae?
+                        </p>
+                        <img src="img/project/certificate.svg" alt="bulet" class="svg"><h3>Flexible Layouts</h3>
+                        <p> Quisquam ex porro
+                          maxime doloremque, cupiditate nobis quasi 
+                          repellendus cum reiciendis adipisci!</p>
+                        <img src="img/project/certificate.svg" alt="bulet" class="svg"><h3>Easy to Use</h3>      
+                          <p>Quasi, 
+                          cumque iste placeat dicta minus eligendi 
+                          maiores obcaecati dignissimos cum minima.</p>
+                          <img src="img/project/certificate.svg" alt="bulet" class="svg"><h3>Awesome Design</h3>
+                        <p>Fugit perspiciatis vel laborum animi quae,
+                         placeat repellat sed fugiat incidunt recusandae?
+                        </p>
+                        <img src="img/project/certificate.svg" alt="bulet" class="svg"><h3>Flexible Layouts</h3>
+                        <p> Quisquam ex porro
+                          maxime doloremque, cupiditate nobis quasi 
+                          repellendus cum reiciendis adipisci!</p>
+                        <img src="img/project/certificate.svg" alt="bulet" class="svg"><h3>Easy to Use</h3>      
+                          <p>Quasi, 
+                          cumque iste placeat dicta minus eligendi 
+                          maiores obcaecati dignissimos cum minima.</p>
+                    </div>
+                </div>
+            </div>
+        </div><!--------------sec-5  end------------->
+        <div class="sec-6">
+            <h5 class="fw-bold text-center">WORKING WITH US</h5><hr class="u-line">
+            <p class="text-center">We've completed more than 100+ project for our
+            amazing clients, If you interested?</p>
+            <button class="btn btn-primary btn-outline-light d-block m-auto">Hite Us</button> 
+        </div><!----------------sec-6  end----------------->
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h5 class="fw-bold ps-2">LATEST BLOG POSTS</h5><hr class="undline">
+                <div class="sec-7 d-flex">  
+                    <div class="pic">
+                        <img src="img/blog/blog_02.jpg" alt="image" class="w-100 img-thumbnails">
+                        <div class="img-cap">
+                            <h6 class="w-100 me-3 bg-dark text-light pic-cap text-center">october  17 ,2025</h6>
+                        </div>
+                    </div>
+                    <div class="text-right ps-3">
+                        <h4>10 Tips for a Business Strong Start</h4>
+                        <p>Donec at consequat tortor.Etiumutipsum 
+                                    sit amet diam quis putvinar efficitur quis vitae
+                        </p>
+                        <div class="d-flex">
+                            <div class="inner-1"></div>
+                            <div class="inner-2"><p>Development Marketing</p></div>
+                            <div class="inner-3"></div>
+                            <div class="inner-4"><p><a href="#"> Read More</a></p></div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-6">
+                <h5 class="fw-bold">TESTIMONIALS</h5><hr class="undline">
+                <div class="testimonial-up d-flex">
+                    <div class="t-left"></div>
+                    <div class="t-right">
+                        <p>On the Insert tab, the galleries include items 
+                            that are designed to coordinate with the
+                            overall look of your document. You can use 
+                            On the Insert tab, the galleries include items 
+                            that are designed to coordinate with the
+                            overall look of your document. You can use 
+                            </p>
+                    </div>
+                </div>
+
+                <div class="testimonial-down d-flex">
+                    <img src="img/testimonial/author.png" alt="picture" class="pe-4 w-25 h-25">
+                    <div class="details pt-5">
+                        <p>MICHAEL GREEN</p>
+                    <p>Product Manager</p>
+                    </div>
+                </div>
+            </div>
+        </div><!---------------sec-7  end------------->
+        <div class="sec-8 pt-5">
+            <div class="row">
+                <div class="col-md-2">
+                    <img src="img/brand/brand1.png" alt="brand logo">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/brand/brand2.png" alt="brand logo">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/brand/brand3.png" alt="brand logo">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/brand/brand4.png" alt="brand logo">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/brand/brand5.png" alt="brand logo">
+                </div>
+                <div class="col-md-2">
+                    <img src="img/brand/brand6.png" alt="brand logo">
+                </div>
+            </div>
+        </div><!----------------sec-8  end ------------->
+        <div class="sec-9 bg-dark mt-5 pt-5 ps-2 w-100">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="img/footer/footer-logo.png" alt="logo">
+                    <p class="text-light pt-4">Bemax is a clean PSD theme suitable for corporate, You can customize it very easy to fit your needs, semper suscipit metus accumsan at. Nam luctus ac tortor eu</p>
+                    <div class="social-icon">
+                        <img src="img/logo/facebook.svg" alt="facebook icon" class="sicon">
+                        <img src="img/logo/instagram.svg" alt="facebook icon" class="sicon ms-3">
+                        <img src="img/logo/google.svg" alt="facebook icon" class="sicon ms-3">
+                        <img src="img/logo/twitter.svg" alt="facebook icon" class="sicon ms-3">
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="text-light fw-bold">Features</h2>
+                    <div class="navi">
+                        <ul class="pt-3">
+                            <li class="nav-item"><a href="#" class="nav-link link-light">About Us</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link link-light">Our Story</a></li>
+                             <li class="nav-item"><a href="#" class="nav-link link-light">Term & Conditions</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link link-light">Privacy Policy</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link link-light">Sites Map</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="text-light fw-bold">Contact us</h2>
+                    <div class="text-light pt-3">
+                        <h5>Address: 379 5th Ave  New York, NYC 10018, United States</h5>
+                        <h5>Phone: +(112) 345 6999</h5>
+                        <h5>Fax: +(112) 345 8999</h5>
+                        <h5>Email: contact@bemax.com</h5>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h2 class="text-light fw-bold">Newslleter</h2>
+                    <div class="text-light pt-4"> 
+                        <p>Subscribe to Newsletters and Stay informed about our news and events</p>
+                        <input type="email"  placeholder="Your email" class="w-75">
+                        <input type="submit" value="Subscribe" class="w-75 bg-primary mt-3">
+                    </div>
+                </div>
+            </div>
+            <p class="text-light pt-4 text-center">Copyright © 2017 Designed by AuThemes. All rights reserved.</p>
+            <p>Bemax</p>
+        </div>
+    </div>
+
+    <script src="bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="custom.js"></script>
+</body>
+</html>

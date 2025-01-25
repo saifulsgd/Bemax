@@ -1,0 +1,152 @@
+.top{
+    width: 100%;
+    height: 10px;
+    background-color: blue;
+}
+html{
+    scroll-behavior: smooth;
+}
+.sec-1{
+    width: 100%;
+    height: 82px;
+    background-color: blue;
+    color: #fff;
+}
+.pic-cap{
+    height: 40px;
+}
+.u-line{
+    width: 5%;
+    margin: auto;
+}
+.wrap,.svg{
+    float: left;
+}
+body{
+    max-width: 1920px;
+    min-width: 314px;
+    position: relative;
+}
+.svg{
+    width: 40px;
+    margin-right: 10px;
+}
+.sec-6{
+    width: 100%;
+    height: 200px;
+    margin-top: 10%;
+}
+.undline{
+    width: 10%;
+}
+.pic-cap{
+    height: 40px;
+}
+.inner-1, .inner-3{
+    width: 10px;
+    height: 20px;
+    background-color: pink;
+}
+.inner-2, .inner-4{
+    font-size: 12px;
+}
+.t-left{
+    width:50px;
+    height: 80px;
+    background-color: pink;
+    margin-right: 10px;
+}
+.details{
+    line-height: 10px;
+    margin-top: 30px;
+}
+.sicon{
+    width: 20px;
+    height: 20px;
+}
+/* header part start */
+
+.header{
+    height: 80px;
+}
+.logo{
+    line-height: 80px;
+}
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+.nav li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #000;
+    text-transform: capitalize;
+}
+.nav li a:hover{
+    background-color: darkblue;
+    color: #fff;
+}
+.header-2{
+    display: flex;
+    line-height: 80px;
+}
+#check{
+    display: none;
+}
+.header-right{
+    display: flex;
+    justify-content: space-between;
+}
+#search{
+    padding-right: 30px;
+    cursor: pointer;
+}
+#search {
+	padding-top: 8px;
+}
+.checkbtn{
+    cursor: pointer;
+}
+.active{
+    display: block;
+}
+/* header part end */
+.popup{
+    max-width: 768px;
+    height: 400px;
+    background-color: cornflowerblue;
+    display: none;
+}
+.popup li{
+    list-style-type: none;
+    text-align: center;
+}
+.popup li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin: 30px;
+}
+.active{
+    display: block;
+}
+.popup li a:hover{
+    background-color: crimson;
+}
+.topbar{
+    width: 40px;
+    height: 40px;
+    background-color: blueviolet;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    line-height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    opacity: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.xyz{
+    opacity: 1;
+}
